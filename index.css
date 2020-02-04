@@ -7,6 +7,7 @@
 a{
   color: #bd806e;
   transition: color .25s ease-in-out;
+  text-decoration: none;
 }
 
 strong {
@@ -84,11 +85,11 @@ small {
 .programs {
   background: hsla(100,0%,0%,.6);
   color: #d2ba87;
-  font-family: Muli, serif;
-  font-style: italic;
+  font-family: Muli, serif;  
 }
 
 .programs p {
+  font-style: italic;
   font-size: 1.125rem;
   text-align: left;
   padding: 1.5rem 0 2rem 1.5rem;
@@ -127,7 +128,7 @@ small {
 .question-part .sub-head {
   font-size: 1.5rem;
   line-height: 1.5rem;
-  padding-bottom: 2rem;
+  padding:  1rem 0;
   
 }
 
@@ -135,9 +136,9 @@ small {
   text-align: left;
   font-family: Muli, serif;
   letter-spacing: 0.125rem;
-  line-height: 2rem;
-  font-size: 0.95rem;
-  padding: 0 1rem .2rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  padding: 1rem .2rem 1rem 1rem;
 }
 
 .question-part .answer {
@@ -145,7 +146,7 @@ small {
   font-family: Muli, serif;
   letter-spacing: 0.125rem;
   line-height: 1.5rem;
-  font-size: 0.85rem;
+  font-size: 1rem;
   padding: 0 1rem 1rem;
 }
 
@@ -159,7 +160,7 @@ small {
   display: block;
   width: 15rem;
   height: .15rem;
-  margin: 2rem auto;
+  margin: 2rem auto 0;
 }
 
 .contact {
@@ -206,8 +207,8 @@ small {
 footer {
   background: hsla(100,0%,0%,.6);
   font-family: 'Libre Baskerville', serif;
-  height: 5rem;
-  line-height: 5rem;
+  height: 6rem;
+  line-height: 6rem;
   text-align: center;
   color: #fff;
   overflow-y: hidden;
