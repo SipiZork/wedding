@@ -1,5 +1,21 @@
 *{
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+a{
+  color: #bd806e;
+  transition: color .25s ease-in-out;
+}
+
+strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: .8rem;
+  font-weight: 100;
 }
 
 .cover {
@@ -34,7 +50,6 @@
   text-align: center;
   font-size: 3rem;
   display: inline-block;
-  margin: 0 auto;
   padding: 1.25rem 0 .4rem;
   border-top: 1px solid rgba(255,255,255,.8);
   font-family: 'Great Vibes', sans-serif;
@@ -48,29 +63,152 @@
   font-family: 'Libre Baskerville';
 }
 
-.locations {
-  padding: 3rem;
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat;
+.content-part {
+  padding: 2rem 0;
   width: 100vw;
-  margin: 0 auto;
   text-align: center;
+  display: block;
 }
+
 
 .content-header {
-  font-family: 'Great Vibes', sans;
+  font-family: 'Great Vibes', serif;
   font-size: 3rem;
+  padding: .4rem 0 1.25rem;
 }
 
-.location {
+.locations {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat;
+}
+
+.programs {
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  font-family: Muli, serif;
+  font-style: italic;
+}
+
+.programs p {
+  font-size: 1.125rem;
+  text-align: left;
+  padding: 1.5rem 0 2rem 1.5rem;
+}
+
+.program-list {
+  text-align: left;
+  font-size: 1.125rem;
+  padding-left: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.gifts {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat;
+  font-family: Muli, serif;
+}
+
+.gifts img {
+  width: 120px;
+  padding: 2rem 0;
+}
+
+.gifts p {
+  width: 80vw;
+  overflow-y: hidden;
+  font-size: 1.25rem;
+  margin: 0 auto;
+}
+
+.qna {
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.question-part .sub-head {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
   
+}
+
+.question-part .question {
+  text-align: left;
+  font-family: Muli, serif;
+  letter-spacing: 0.125rem;
+  line-height: 2rem;
+  font-size: 0.95rem;
+  padding: 0 1rem .2rem;
+}
+
+.question-part .answer {
+  text-align: left;
+  font-family: Muli, serif;
+  letter-spacing: 0.125rem;
+  line-height: 1.5rem;
+  font-size: 0.85rem;
+  padding: 0 1rem 1rem;
+}
+
+.question-part a:hover{
+  color: #eda087;
+}
+
+.question-part::after {
+  content: "";
+  background: #d2ba87;
+  display: block;
+  width: 15rem;
+  height: .15rem;
+  margin: 2rem auto;
+}
+
+.contact {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.contact p {
+  width: 80vw;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin: 1rem auto;
+}
+
+
+.location-name {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 0 1.25rem;
+}
+
+.location-img {
+  width: 120px;
+}
+
+.location-details {
+  font-family: Muli, serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  padding: 2rem 0 .25rem;
 }
 
 .location::after {
   content: "";
   clear:both;
-  height: .25rem;
+  height: .15rem;
   display: block;
-  width: 10rem;
+  width: 7.5rem;
   background-color: rgba(0,0,0,.8);
   margin: 2rem auto;
+}
+
+footer {
+  background: hsla(100,0%,0%,.6);
+  font-family: 'Libre Baskerville', serif;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #fff;
+  overflow-y: hidden;
 }
