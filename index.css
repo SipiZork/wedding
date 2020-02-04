@@ -24,24 +24,25 @@
 }
 
 .cover .tagline {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 2.5rem;
-  padding: 1.25rem 0 .5rem;
+  padding: .5rem 0;
+  letter-spacing: .25rem;
 }
 
 .cover .headline {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3rem;
   display: inline-block;
   margin: 0 auto;
-  padding: 1.25rem 0 .5rem;
+  padding: 1.25rem 0 .4rem;
   border-top: 1px solid rgba(255,255,255,.8);
   font-family: 'Great Vibes', sans-serif;
   color: #d2ba87;
 }
 
 .cover .date {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 2.5rem;
   letter-spacing: .15rem;
   font-family: 'Libre Baskerville';
