@@ -213,3 +213,43 @@ footer {
   color: #fff;
   overflow-y: hidden;
 }
+
+@media screen and (min-width: 768px) {
+  
+  .locations{
+    
+  }
+  
+  .location {
+    display: inline-block;
+    width: 30%;
+    padding: 2rem 3%;
+  }
+  
+  .location::after {
+    display: none;
+  }
+  
+  .programs p {
+    width: 33%;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+  
+  .program-list {
+    width: 33%;
+    margin: 0 auto;
+  }
+  
+  .question-part {
+    display: inline-block;
+    width: 30%;
+    padding: 2rem 3%;
+    vertical-align: top;
+  }
+  
+  .question-part::after {
+    display: none;
+  }
+  
+}
