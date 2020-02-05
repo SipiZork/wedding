@@ -22,7 +22,7 @@ small {
 .cover {
   background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center;
   background-size: cover;
-  background-position: 70% 0%;
+  background-position: 70% center;
   height: 100vh;
   width: 100vw;
   display: table;
@@ -47,12 +47,20 @@ small {
   letter-spacing: .25rem;
 }
 
+.cover .tagline::after {
+    display: block;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+    width: 12.515625rem;
+    margin: .5rem auto;
+}
+
 .cover .headline {
   text-align: center;
   font-size: 3rem;
-  display: inline-block;
+  display: block;
   padding: 1.25rem 0 .4rem;
-  border-top: 1px solid rgba(255,255,255,.8);
   font-family: 'Great Vibes', sans-serif;
   color: #d2ba87;
 }
@@ -62,6 +70,17 @@ small {
   line-height: 2.5rem;
   letter-spacing: .15rem;
   font-family: 'Libre Baskerville';
+}
+
+.cover .date::before,
+.cover .date::after {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
 }
 
 .content-part {
@@ -85,7 +104,7 @@ small {
 .programs {
   background: hsla(100,0%,0%,.6);
   color: #d2ba87;
-  font-family: Muli, serif;  
+  font-family: Muli, serif;
 }
 
 .programs p {
@@ -129,7 +148,7 @@ small {
   font-size: 1.5rem;
   line-height: 1.5rem;
   padding:  1rem 0;
-  
+
 }
 
 .question-part .question {
@@ -215,58 +234,58 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  
+
   .background {
     width: 50vw;
     margin: 0 auto;
   }
-  
+
   .cover .tagline {
     text-transform: uppercase;
   }
-  
+
   .cover .headline {
     font-size: 8rem;
     line-height: 10rem;
   }
-  
+
   .cover .date {
     padding-bottom: 1rem;
   }
-  
+
   .locations{
-    
+
   }
-  
+
   .location {
     display: inline-block;
     width: 30%;
     padding: 2rem 3%;
   }
-  
+
   .location::after {
     display: none;
   }
-  
+
   .programs p {
     width: 33%;
     margin: 0 auto;
 }
-  
+
   .program-list {
     width: 33%;
     margin: 0 auto;
   }
-  
+
   .question-part {
     display: inline-block;
     width: 30%;
     padding: 2rem 3%;
     vertical-align: top;
   }
-  
+
   .question-part::after {
     display: none;
   }
-  
+
 }
