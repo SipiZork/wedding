@@ -216,6 +216,24 @@ footer {
 
 @media screen and (min-width: 768px) {
   
+  .background {
+    width: 50vw;
+    margin: 0 auto;
+  }
+  
+  .cover .tagline {
+    text-transform: uppercase;
+  }
+  
+  .cover .headline {
+    font-size: 8rem;
+    line-height: 10rem;
+  }
+  
+  .cover .date {
+    padding-bottom: 1rem;
+  }
+  
   .locations{
     
   }
