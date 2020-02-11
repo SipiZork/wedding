@@ -104,7 +104,7 @@ small {
 .programs {
   background: hsla(100,0%,0%,.6);
   color: #d2ba87;
-  font-family: Muli, serif;
+  font-family: Muli, serif;  
 }
 
 .programs p {
@@ -148,7 +148,7 @@ small {
   font-size: 1.5rem;
   line-height: 1.5rem;
   padding:  1rem 0;
-
+  
 }
 
 .question-part .question {
@@ -234,58 +234,58 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-
+  
   .background {
     width: 50vw;
     margin: 0 auto;
   }
-
+  
   .cover .tagline {
     text-transform: uppercase;
   }
-
+  
   .cover .headline {
     font-size: 8rem;
     line-height: 10rem;
   }
-
+  
   .cover .date {
     padding-bottom: 1rem;
   }
-
+  
   .locations{
-
+    
   }
-
+  
   .location {
     display: inline-block;
     width: 30%;
     padding: 2rem 3%;
   }
-
+  
   .location::after {
     display: none;
   }
-
+  
   .programs p {
     width: 33%;
     margin: 0 auto;
 }
-
+  
   .program-list {
     width: 33%;
     margin: 0 auto;
   }
-
+  
   .question-part {
     display: inline-block;
     width: 30%;
     padding: 2rem 3%;
     vertical-align: top;
   }
-
+  
   .question-part::after {
     display: none;
   }
-
+  
 }
